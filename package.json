@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "build": "tsc --build",
+    "start:prod": "node build/src/index.js "
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
